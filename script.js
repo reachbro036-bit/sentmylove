@@ -45,7 +45,7 @@ bigHeart.addEventListener('animationend', () => {
   // 💌 Popup after heart burst
   setTimeout(() => {
     document.getElementById('lovePopup').classList.remove('hidden');
-    document.getElementById('popupName').textContent = "Sent To Oun Seav Hong 💘";
+    document.getElementById('popupName').textContent = "Sent To Oun Yuna 💘";
     const animeSound = document.getElementById('animeSound');
     animeSound.play();
 
